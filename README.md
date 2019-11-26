@@ -10,6 +10,8 @@ This function returns a random value from a predefined array.
 ```
 kotlinc ~/kotlin/main.kt -include-runtime -d ~/kotlin/main.jar && java -jar /workspace/DRKotlin/kotlin/main.jar
 
+kotlinc /workspace/DRKotlin/kotlin/main.kt -include-runtime -d /workspace/DRKotlin/kotlin/main.jar && java -jar /workspace/DRKotlin/kotlin/main.jar
+
 java -jar kotlin/main.jar
 ```
 
