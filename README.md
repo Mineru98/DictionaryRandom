@@ -4,7 +4,6 @@ This function returns a random value from a predefined array.
 ## Define
 - 사전에 있는 데이터에 대한 난수
 - 변수(빈도값:Emersion)
-  - 자료 시각화를 위한 Charting
 
 ## Kotlin Usage
 ```
