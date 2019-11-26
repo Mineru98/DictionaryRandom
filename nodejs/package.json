@@ -9,14 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.6.0",
-    "chart.js": "^2.9.2",
-    "d3": "^5.12.0",
-    "d3-node": "^2.2.0",
-    "d3node-output": "^1.0.3",
     "mysql2": "^2.0.0",
     "node-schedule": "^1.3.2",
     "sequelize": "^5.21.2",
-    "svg2png": "^4.1.1"
   }
 }
