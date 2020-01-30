@@ -14,6 +14,14 @@ kotlinc /workspace/DRKotlin/kotlin/main.kt -include-runtime -d /workspace/DRKotl
 java -jar kotlin/main.jar
 ```
 
+## Java Usage
+```
+// build
+mkdir -p /workspace/DictionaryRandom/java/bin/ && mkdir -p /workspace/DictionaryRandom/java/jar/ && javac -encoding UTF-8 -cp "$(find /workspace/DictionaryRandom/java/jar/ -name *.jar -printf %p:)" -d /workspace/DictionaryRandom/java/bin/ -g $(find /workspace/DictionaryRandom/java/src/ -name *.java)
+// run
+mkdir -p /workspace/DictionaryRandom/java/bin/ && mkdir -p /workspace/DictionaryRandom/java/jar/ && javac -encoding UTF-8 -cp "$(find /workspace/DictionaryRandom/java/jar/ -name *.jar -printf %p:)" -d /workspace/DictionaryRandom/java/bin/ -g $(find /workspace/DictionaryRandom/java/src/ -name *.java) && java -Dfile.encoding=UTF-8 -cp "$(find /workspace/DictionaryRandom/java/jar/ -name *.jar -printf %p:)/workspace/DictionaryRandom/java/bin/" DictionaryRandom/Main
+```
+
 ## DB
 `
 CREATE DATABASE dictionary DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
